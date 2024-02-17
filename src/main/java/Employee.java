@@ -1,6 +1,6 @@
 public class Employee {
 
-    private static int counter = 00;
+    private static int counter = 0;
     private final int id = ++counter;
     private final String phoneNumber;
     private final String name;
