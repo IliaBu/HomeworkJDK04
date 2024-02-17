@@ -1,3 +1,5 @@
+package gb.jdk;
+
 public class Employee {
 
     private static int counter = 0;
@@ -16,6 +18,7 @@ public class Employee {
     public int getId() {
         return id;
     }
+
     public String getPhoneNumber() {
         return phoneNumber;
     }
@@ -31,7 +34,7 @@ public class Employee {
     @Override
     public String toString() {
         return String.format("Табельный номер: %d Имя: %-10s  Номер телефона: %-10s стаж: %d",
-                id, name, phoneNumber,experience);
+                id, name, phoneNumber, experience);
     }
 
 }
